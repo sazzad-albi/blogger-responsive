@@ -39,16 +39,16 @@
                         <a href="#">Home</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Category</a>
+                        <a href="#category">Category</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Archieve</a>
+                        <a href="#archieve">Archieve</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Pages</a>
+                        <a href="#pages">Pages</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Contact Us</a>
+                        <a href="#contacts">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -83,7 +83,7 @@
 
         <!---------------------- Blog Carousel ------------------------->
 
-        <section class="blog">
+        <section class="blog" id="archieve">
             <div class="container">
                 <div class="owl-carousel owl-theme blog-post">
                     <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
@@ -138,7 +138,7 @@
 <section class="container">
     <div class="site-content">
         <div class="posts">
-            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+            <div id="post-page-1" class="post-content" data-aos="zoom-in" data-aos-delay="200">
                 <div class="post-image">
                     <div>
                         <img class="img" src="./assets/Blog-post/blog1.png" alt="Blog1">
@@ -156,7 +156,7 @@
                 </div>
             </div>
             <hr>
-            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+            <div id="post-page-2" class="post-content" data-aos="zoom-in" data-aos-delay="200">
                 <div class="post-image">
                     <div>
                         <img class="img" src="./assets/Blog-post/blog2.png" alt="Blog1">
@@ -174,7 +174,7 @@
                 </div>
             </div>
             <hr>
-            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+            <div id="post-page-3" class="post-content" data-aos="zoom-in" data-aos-delay="200">
                 <div class="post-image">
                     <div>
                         <img class="img" src="./assets/Blog-post/blog3.png" alt="Blog3">
@@ -209,16 +209,16 @@
                     <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
-            <div class="pagination flex-row">
+            <div id="pages" class="pagination flex-row">
                 <a href="#"><i class="fas fa-chevron-left"></i></a>
-                <a href="#" class="pages">1</a>
-                <a href="#" class="pages">2</a>
-                <a href="#" class="pages">3</a>
+                <a href="#post-page-1" class="pages">1</a>
+                <a href="#post-page-2" class="pages">2</a>
+                <a href="#post-page-3" class="pages">3</a>
                 <a href="#"><i class="fas fa-chevron-right"></i></a>
             </div>
         </div>
         <aside class="sidebar">
-            <div class="category">
+            <div id="category" class="category">
                 <h2>Category</h2>
                 <ul class="category-list">
                     <li class="list-items" data-aos="fade-left" data-aos-delay="100">
@@ -352,7 +352,7 @@
 
 <!------------------------ Footer Section ------------------------>
 
-<footer class="footer">
+<footer id="contacts" class="footer">
     <div class="container">
         <div class="about-us" data-aos="fade-right" data-aos-delay="200">
             <h2>About Us</h2>
